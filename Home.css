@@ -2,7 +2,7 @@ body{
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
 }
 
-p, li, h3{
+p, li, h3, label{
     color:white;
     font-size: 20px;
 }
@@ -56,6 +56,20 @@ h2{
     width:30%;
     height:25%;
 }
+
+.form{
+    text-align: center;
+}
+
+.formField{
+    border: 1px solid white;
+}
+
+.textArea{
+    height:50px;
+    width:50%;
+}
+
 
 .contactDetails{
     
