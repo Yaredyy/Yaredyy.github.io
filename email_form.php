@@ -10,9 +10,14 @@ return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
 
 $email_address  = filter_email_header($email_address);
 
+$email_subject = "New Form submission";
 
-$headers = "From: $email_addressn";
-$sent = mail('yaredyyehualashet@gmail.com', 'message Form Submission', $message, $headers);
+$email_to = "yaredyyehualashet@gmail.com";
+
+$headers = "From: $email_address \r\n";
+
+
+$sent = mail($email_to, $email_subject, $message, $headers);
 
 
 if ($sent) {
