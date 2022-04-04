@@ -4,7 +4,7 @@
   const name = document.getElementById("name");
 
   name.addEventListener('mouseover', function handleMouseOver() {
-    name.style.color = colors[Math.floor(Math.random()*11)];
+    name.style.color = "red";
   });
   
   name.addEventListener('mouseout', function handleMouseOut() {
