@@ -1,5 +1,5 @@
 
-  const colors=["Red","Blue","Yellow","Green","Orange","Purple","Pink","Black","White","Brown","Gray"];
+  let colors=["Red","Blue","Yellow","Green","Orange","Purple","Pink","Black","White","Brown","Gray"];
 
   const name = document.getElementById("name");
 
