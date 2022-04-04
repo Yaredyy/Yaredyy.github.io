@@ -1,12 +1,8 @@
-class index {
-  
-  colors=["Red","Blue","Yellow","Green","Orange","Purple","Pink","Black","White","Brown","Gray"];
-  flag = True;
 
-  constructor(){};
+  let colors=["Red","Blue","Yellow","Green","Orange","Purple","Pink","Black","White","Brown","Gray"];
+  let flag = True;
 
-  random(){
-      num = Math.floor(Math.random() * 11);
+  random();{
+      let num = Math.floor(Math.random() * 11);
       Document.getElementByID("name").style.color = colors[num];
-  };
-}
+  }
