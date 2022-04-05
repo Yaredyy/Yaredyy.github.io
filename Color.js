@@ -1,12 +1,14 @@
 
-  let colors=["red","blue","yellow","green","orange","purple","pink","black","white","brown","gray"];
+  // let colors=["red","blue","yellow","green","orange","purple","pink","black","white","brown","gray"];
 
-  const name1 = document.getElementById("name");
+  const name1 = document.getElementById("name1");
 
-  name1.addEventListener('mouseover', function handleMouseOver() {
-    name1.style.color = "red";
-  });
-  
-  name1.addEventListener('mouseout', function handleMouseOut() {
-    name1.style.color = "white";
-  });
+  function Hovered(){
+    console.log("Check1");
+    name1.innerHTML = "I'm Yared Yehualashet";
+  }
+
+  function Unhovered(){
+    console.log("Check2");
+    name1.innerHTML = "I'm Yared Yohannes Yehualashet";
+  }
