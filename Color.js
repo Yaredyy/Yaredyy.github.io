@@ -10,7 +10,3 @@
   function Unhovered(){
     name1.style.color = colors[Math.floor(Math.random * 11)];
   }
-
-  name1.addEventListener(onmouseenter, Hovered);
-
-  name.addEventListener(onmouseleave, Unhovered);
