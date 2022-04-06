@@ -91,6 +91,10 @@ li{
     list-style-position: inside;
 }
 
-#name1{
+#name{
     font-family: 'Lobster Two', cursive;
+}
+
+#maxing{
+    font-family: 'Lobster', cursive;
 }
