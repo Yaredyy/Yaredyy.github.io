@@ -7,6 +7,6 @@
   }
 
   while(flag==1){
-    setTimeout(Rainbow(), 500);
+    setTimeout(() => { Rainbow(); }, 500);
   }
 
