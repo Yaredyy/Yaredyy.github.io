@@ -19,10 +19,7 @@
 
   function endCoder(){
     document.getElementById("maxing").innerHTML = coders[code];
-    code++;
-    if(code==4){
-      code=0;
-    }
+    code = code++%4;
   }
   
 
