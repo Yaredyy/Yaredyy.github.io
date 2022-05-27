@@ -2,7 +2,7 @@
 <html lang="en">
 
     
-<!--    header, contains titles and searching descriptions.-->
+<!--    header, titles, fonts, and react.-->
     
     
     <head>
@@ -10,9 +10,11 @@
         <title>
             Yared Y Yehualashet's Personal Website
         </title>
-        
+
+        <!-- Load Style Sheet. -->
         <link rel="stylesheet" href="Home.css">
 
+        <!-- Adding Info -->
         <meta charset="UTF-8">
 
         <meta name="keywords" content="Yared, Yohannes, Yehualashet, Backend, Frontend, Software Engineer, Internship">
@@ -23,18 +25,20 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="" rel="stylesheet">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
-
+        <!-- Load Google fonts server. -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+        <!-- Load Fonts. -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
-
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-        
+
+        <!-- Load React. -->
+        <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
         <script src="Color.js?"></script>
     
     </head>
@@ -154,12 +158,9 @@
               </div>
         </footer>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+        
 
-    <!-- Load our React component. -->
+    <!-- Load Form React component. -->
     <script src="like_button.js"></script>
     </body>
 </html>
