@@ -118,9 +118,8 @@
             
             <div class='form'>
             
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQkjKQ2tehGLyViZEctWvr4ZdAYg38LKhedTHPM2NVvUYmMA/viewform?embedded=true" width="640" height="709" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                
-                
+                <div id="like_button_container"></div>
+
             </div>
             
             <!-- Contact details section and list -->
@@ -155,5 +154,12 @@
               </div>
         </footer>
 
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
     </body>
 </html>
