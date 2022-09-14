@@ -10,7 +10,7 @@
 
 
   function endCoder(){
-    document.getElementById("maxing").innerHTML = coders[Math.floor(Math.random()*10)];
+    document.getElementById("maxing").innerHTML = coders[Math.floor(Math.random()*4)];
     code = code++%4;
   }
   
