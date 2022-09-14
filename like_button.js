@@ -11,7 +11,7 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return "googleForms";
+      return (<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQkjKQ2tehGLyViZEctWvr4ZdAYg38LKhedTHPM2NVvUYmMA/viewform?embedded=true" width="640" height="680" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>);
     }
 
     return e(
