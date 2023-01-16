@@ -15,6 +15,7 @@ class LikeButton extends React.Component {
   render() {
     if (this.state.liked) {
       domContainer.appendChild(googleForms);
+      domContainer.scrollIntoView();
       return;
     }
 

@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     min-height: 100vh;
     display: flex;
@@ -88,9 +93,14 @@ h2{
     border: 1px solid white;
 }
 
-.footer {
-    float:right;
-    margin-top: auto;
+footer {
+    align-self:flex-end;
+    position:fixed;
+    bottom: 0;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: midnightblue;
 }
 li{
     text-align: center;
@@ -103,4 +113,20 @@ li{
 
 #maxing{
     font-family: 'Lobster Two', cursive;
+}
+
+.Padding1{
+    padding-top: 100px;
+}
+
+.Padding2{
+    padding-top: 100px;
+}
+
+.Padding3{
+    padding-top: 100px;
+}
+
+.EndPadding{
+    padding-bottom: 100px;
 }
