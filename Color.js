@@ -2,7 +2,7 @@
   
   let colors=["red","blue","yellow","green","orange","purple","pink","white","brown","gray"];
 
-  let coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer"];
+  let coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer","Friendly Coder","Spider-Man"];
 
   let fonts = ["Lobster Two","Lobster","Mukta","Quicksand","Abril Fatface","Indie Flower"];
 
@@ -24,9 +24,22 @@
   function RainbowCoder(){
     document.getElementById("maxing").style.color = colors[Math.floor(Math.random()*10)];
   }
-
+  let num;
   function NewCoder(){
-    document.getElementById("maxing").innerHTML = coders[Math.floor(Math.random()*5)];
+    num = Math.floor(Math.random()*7);
+    if(num==7){
+      num = num + Math.floor(Math.random()*2);
+      if(num==7){
+        document.getElementById("maxing").innerHTML = coders[num];
+      }
+      else{
+        document.getElementById("maxing").innerHTML = coders[3];
+      }
+
+    }
+    else{
+      document.getElementById("maxing").innerHTML = coders[num];
+    }
   }
   
   function FontCoder(){
