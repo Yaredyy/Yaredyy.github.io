@@ -1,14 +1,14 @@
-  let name = document.getElementById("name");
+  const name = document.getElementById("name");
 
-  var coder = document.getElementById("maxing");
+  const coder = document.getElementById("maxing");
   
-  var names = ["Yared","Yared Yohannes", "Yared Yohannes Yehualashet", "Yared Yehualashet", "Yared Y.","Yared Y. Yehualashet","Yared Yohannes Y.", "Yared Y. Y."]
+  const names = ["Yared","Yared Yohannes", "Yared Yohannes Yehualashet", "Yared Yehualashet", "Yared Y.","Yared Y. Yehualashet","Yared Yohannes Y.", "Yared Y. Y."]
   
-  let colors=["red","blue","yellow","green","orange","purple","pink","white","brown","gray"];
+  const colors=["red","blue","yellow","green","orange","purple","pink","white","brown","gray"];
 
-  let coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer","Friendly Coder","Spider-Man"];
+  const coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer","Friendly Coder","Spider-Man"];
 
-  let fonts = ["Lobster Two","Lobster","Mukta","Quicksand","Abril Fatface","Indie Flower"];
+  const fonts = ["Lobster Two","Lobster","Mukta","Quicksand","Abril Fatface","Indie Flower"];
 
 
 
