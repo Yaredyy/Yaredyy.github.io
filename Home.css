@@ -1,4 +1,7 @@
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
 }
 
@@ -12,6 +15,7 @@ a{
 }
 
 h1{
+    display: inline-block;
     font-size: 30px;
     color:white;
 }
@@ -86,6 +90,7 @@ h2{
 
 .footer {
     float:right;
+    margin-top: auto;
 }
 li{
     text-align: center;
