@@ -28,7 +28,7 @@
   function NewCoder(){
     num = Math.floor(Math.random()*7);
     if(num==7){
-      num = num + Math.floor(Math.random()*2);
+      num = num + Math.floor(Math.random()*4);
       if(num==7){
         document.getElementById("maxing").innerHTML = coders[num];
       }
