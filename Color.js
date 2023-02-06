@@ -1,3 +1,5 @@
+  
+  //Data initilazed
   const name = document.getElementById("name");
 
   const coder = document.getElementById("maxing");
@@ -12,7 +14,7 @@
 
 
 
-
+  //functions set up for name div
   function RainbowName(){
     name.style.color = colors[Math.floor(Math.random()*10)];
   }
@@ -29,7 +31,7 @@
 
 
 
-
+  //functions et up for coding div
   function RainbowCoder(){
     coder.style.color = colors[Math.floor(Math.random()*10)];
   }
