@@ -10,7 +10,7 @@ body{
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
 }
 
-p, li, h3, label{
+p, li, h3, label, ul{
     color:white;
     font-size: 20px;
 }
@@ -45,14 +45,22 @@ h2{
 
 }
 
+.name{
+    text-align: center;
+}
+
 .explanation{
     border: 1px solid white;
-    text-align: center;
 }
 
 .whatDone{
     text-align: center;
 
+}
+
+.links{
+    font-size:small;
+    color: white;
 }
 
 .projects{
@@ -63,12 +71,21 @@ h2{
 }
 
 .img2{
-    width:30%;
+    width:23%;
     height:25%;
+}
+
+.img3{
+    width: 30%;
+    height: 60%;
 }
 
 .form{
     text-align: center;
+}
+
+a:visited{
+    color:white;
 }
 
 .formField{
