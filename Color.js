@@ -8,7 +8,7 @@
   
   const colors=["red","blue","yellow","green","orange","purple","pink","white","brown","gray"];
 
-  const coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer","Friendly Coder","Spider-Man"];
+  const coders = ["Backend Coder", "Frontend Coder", "Fullstack Coder", "Backend And Frontend Coder","Programmer","Friendly Coder"];
 
   const fonts = ["Lobster Two","Lobster","Mukta","Quicksand","Abril Fatface","Indie Flower"];
 
@@ -40,10 +40,10 @@
   let num;
 
   function NewCoder(){
-    num = Math.floor(Math.random()*7);
-    if(num==7){
+    num = Math.floor(Math.random()*6);
+    if(num==6){
       num = num + Math.floor(Math.random()*4);
-      if(num==7){
+      if(num==6){
         coder.innerHTML = coders[num];
       }
       else{

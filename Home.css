@@ -70,26 +70,37 @@ h2{
     width:auto;
 }
 
+.crown{
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+}
+
 .img2{
-    width:23%;
-    height:25%;
+    display: -moz-inline-grid;
+    width:100%;
+    height:100%;
+    border: 1px white solid;
 }
 
 .img3{
-    width: 30%;
-    height: 60%;
+    display: -moz-inline-grid;
+    width:100%;
+    height:100%;
+    border: 1px white solid;
 }
 
 .form{
+    margin: auto;
+    width:fit-content;
     text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
 }
 
 a:visited{
     color:white;
-}
-
-.formField{
-    border: 1px solid white;
 }
 
 .textArea{
