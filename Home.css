@@ -7,7 +7,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+    background-image: url(images/background.png);
+    background-size: contain;
 }
 
 p, li, h3, label, ul{
@@ -91,13 +92,9 @@ h2{
 }
 
 .form{
-    margin: auto;
-    width:fit-content;
     text-align: center;
     background-color: black;
     border: 1px solid white;
-    padding-top: 30px;
-    padding: 10px;
 }
 
 a:visited{
@@ -158,4 +155,14 @@ li{
 
 .EndPadding{
     padding-bottom: 100px;
+}
+
+.Constraint{
+    width:40%;
+    margin: auto;
+}
+
+.Constraint2{
+    margin: auto;
+    width:40%;
 }
